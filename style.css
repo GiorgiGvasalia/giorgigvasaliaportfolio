@@ -578,6 +578,33 @@ h6 {
     font-size: 1.5rem;
 }
 
+#certificates .certificates {
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.certificate-title h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.certificate-title p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.certificate-title a:active {
+    color: black;
+}
+
+#certificates img {
+    width: 500px;
+    height: auto;
+    border: 10px solid black;
+}
+
 
 
 @keyframes text_reveal_box{
@@ -705,5 +732,18 @@ h6 {
     #header h1 {
     
       font-size: 1.2rem;
+    }
+
+
+    #certificates .certificates {
+        width: 100%;
+    }
+
+    .certificate-title h1 {
+        font-size: 1.2rem;
+    }
+
+    #certificates img {
+        width: 350px;
     }
 }
